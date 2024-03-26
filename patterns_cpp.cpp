@@ -12,6 +12,7 @@
 #include "proxy.h"
 #include "adapter.h"
 #include "composite.h"
+#include "bridge.h"
 
 int main()
 {
@@ -23,7 +24,8 @@ int main()
     //testFacade();
     //testProxy();    
     //testAdapter();
-    testComposite();
+    //testComposite();
+    testBridge();
 
 }
 
