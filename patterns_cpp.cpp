@@ -13,6 +13,7 @@
 #include "adapter.h"
 #include "composite.h"
 #include "bridge.h"
+#include "flyweight.h"
 
 int main()
 {
@@ -25,7 +26,8 @@ int main()
     //testProxy();    
     //testAdapter();
     //testComposite();
-    testBridge();
+    //testBridge();
+    testFlyweight();
 
 }
 
