@@ -14,6 +14,8 @@
 #include "composite.h"
 #include "bridge.h"
 #include "flyweight.h"
+#include "mediator.h"
+#include "iterator.h"
 
 int main()
 {
@@ -27,7 +29,8 @@ int main()
     //testAdapter();
     //testComposite();
     //testBridge();
-    testFlyweight();
-
+    //testFlyweight();
+    //testMediator();
+    testIterator();
 }
 
