@@ -16,6 +16,7 @@
 #include "flyweight.h"
 #include "mediator.h"
 #include "iterator.h"
+#include "chainOfResponsibility.h"
 
 int main()
 {
@@ -31,6 +32,8 @@ int main()
     //testBridge();
     //testFlyweight();
     //testMediator();
-    testIterator();
+    //testIterator();
+    testChainOfResponsibility();
+
 }
 
